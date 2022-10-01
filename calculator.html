@@ -41,7 +41,7 @@ function join(arg){
 }
 function equal(){
 if(document.getElementById('display').innerHTML!='')    
-document.getElementById('display').innerHTML=eval(document.getElementById('display').innerHTML);
+document.getElementById('display').innerHTML=eval(document.getElementById('display').innerHTML).toFixed(2);
 navigator.vibrate(80);
 }
 function clearL(){
